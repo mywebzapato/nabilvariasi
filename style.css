@@ -36,14 +36,6 @@
 
 #about h2 {text-shadow: 1px 1px 10px rgba(0,0,0,0.7)}
 
-.about .muncul {opacity: 0;
-				transform: translate(50px, 0);}
-
-.about .muncul.anime{ opacity: 1;
-				   transition: 1s;
-					transform: translate(0,0);
-					}
-
 /*final about*/
 
 
@@ -63,15 +55,6 @@
 .portofolio		{background-color: #f4f4e5}
 
 .portofolio h2 {text-shadow: 1px 1px 10px rgba(0,0,0,0.5)}
-
-.portofolio .card { opacity: 0;  
-					transform: translate(0,-50px);
-				   }
-
-.portofolio .card.animasi { opacity: 1;
-							transition: 1s;
-							transform: translate(0,0);
-							}
 
 /*final portofolio*/
 
