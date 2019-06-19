@@ -34,6 +34,8 @@
 
 #about p {text-indent: 5px;}
 
+.about {min-height: 100px;}
+
 #about h2 {text-shadow: 1px 1px 10px rgba(0,0,0,0.7)}
 
 .about .muncul {opacity: 0;
