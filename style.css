@@ -1,0 +1,281 @@
+
+
+
+/*layout mobile*/
+
+/*navbar*/
+
+
+/*jumbotron*/
+
+.jumbotron { font-family: arial;
+			 color: white;
+			 background-color: black;
+			 background-image: url(img/cafe1234.jpg);
+			 background-attachment: fixed;
+			 background-size: cover;
+			 background-position: 0 -250px;
+			 width: : 100%;
+			 overflow: hidden;
+			 margin-top: -50px;
+			 } 
+			 
+
+.jumbotron p {font-size: 30px;}
+
+.jumbotron h1 {font-size: 100px;}
+
+.jumbotron h2 {font-size: 50px;}
+
+.jumbotron p, .jumbotron h1, .jumbotron h2 { text-shadow: 1px 1px 10px rgba(0,0,0,0.5) } 
+
+/*membuat shadow*/
+
+ /*final jumbotron*/
+
+
+
+/*about*/
+
+#about p {text-indent: 5px;}
+
+#about h2 {text-shadow: 1px 1px 10px rgba(0,0,0,0.7)}
+
+.about .muncul {opacity: 0;
+				transform: translate(50px, 0);}
+
+.about .muncul.anime{ opacity: 1;
+				   transition: 1s;
+					transform: translate(0,0);
+					}
+
+/*final about*/
+
+
+/*background*/
+
+#fixed {background-image: url(img/jumbotron2.jpg);
+		min-height: 500px;
+		background-attachment: fixed;
+		background-size: cover;
+		background-position: 0 -200px;}
+
+/*final background*/
+
+/*portofolio*/
+
+
+.portofolio		{background-color: #f4f4e5}
+
+.portofolio h2 {text-shadow: 1px 1px 10px rgba(0,0,0,0.5)}
+
+.portofolio .card { opacity: 0;  
+					transform: translate(0,-50px);
+				   }
+
+.portofolio .card.animasi { opacity: 1;
+							transition: 1s;
+							transform: translate(0,0);
+							}
+
+/*final portofolio*/
+
+
+/*kontak*/
+
+#contact h2 {text-shadow: 1px 1px 10px rgba(0,0,0,0.5)}
+
+/*final kontak*/
+
+
+
+
+/*SPION*/
+#spion .spn {width: 300px;
+	  		  height: 55px;
+	 		  background-color: yellow;
+	 		  border-radius: 5%;}
+
+.yamaha 	{background-color: #f4f4e5}
+
+.tomo 		{background-color: #f4f4e5}
+
+
+/*lampu*/
+#lampu .lmp { width: 300px;
+	  		  height: 55px;
+	  		  background-color: yellow;
+	  		  border-radius: 5%;}
+
+.rem 		{background-color: #f4f4e5}
+
+.rihting 	{background-color: #f4f4e5}
+
+
+/*HANDEL*/
+
+
+/*lampuvariasi*/
+
+#vrlampu .vr { width: 350px;
+	  		  height: 55px;
+	  		  background-color: yellow;
+	  		  border-radius: 5%;}
+
+.eagleeye 		{background-color: #f4f4e5}
+
+.progi		
+
+
+
+ 
+/* layout desktop*/
+@media (min-width: 992px) { 
+
+
+/*navbar*/
+.navbar { opacity: 0.5;
+		  text-transform: uppercase;
+		}
+
+.nav-item:hover::after { 
+			content: '';
+			display: block;
+			border-bottom: 3px solid white;
+			width: 50%;
+			margin: auto; }
+
+.nav-item {margin-right: 20px;}
+
+
+
+
+/*jumbotron*/
+
+.jumbotron { font-family: arial;
+			 color: white;
+			 background-color: black;
+			 background-image: url(img/cafe1234.jpg);
+			 background-attachment: fixed;
+			 background-size: cover;
+			 background-position: 0 -250px;
+			 width: : 100%;
+			 overflow: hidden;
+			 margin-top: -50px;
+			 } 
+			 .jumbotron p {font-size: 10px;}
+
+.jumbotron h1 {font-size: 40px;}
+
+.jumbotron h2 {font-size: 20px;}
+
+
+.jumbotron p, .jumbotron h1, .jumbotron h2 { text-shadow: 1px 1px 10px rgba(0,0,0,0.5) } 
+/*membuat shadow*/
+
+ /*final jumbotron*/
+
+
+
+/*about*/
+
+#about p {text-indent: 5px;}
+
+#about h2 {text-shadow: 1px 1px 10px rgba(0,0,0,0.7)}
+
+.about .muncul {opacity: 0;
+				transform: translate(50px, 0);}
+
+.about .muncul.anime{ opacity: 1;
+				   transition: 1s;
+					transform: translate(0,0);
+					}
+
+
+
+/*final about*/
+
+
+/*background*/
+
+#fixed {background-image: url(img/jumbotron2.jpg);
+		min-height: 500px;
+		background-attachment: fixed;
+		background-size: cover;
+		background-position: 0 -200px;}
+
+/*final background*/
+
+/*portofolio*/
+
+
+.portofolio		{background-color: #f4f4e5}
+
+.portofolio h2 {text-shadow: 1px 1px 10px rgba(0,0,0,0.5)}
+
+.portofolio .card { opacity: 0;  
+					transform: translate(0,-50px);
+				   }
+
+.portofolio .card.animasi { opacity: 1;
+							transition: 1s;
+							transform: translate(0,0);
+							}
+
+/*final portofolio*/
+
+
+/*kontak*/
+
+#contact h2 {text-shadow: 1px 1px 10px rgba(0,0,0,0.5)}
+
+/*final kontak*/
+
+
+
+
+/*SPION*/
+#spion .spn {width: 300px;
+	  		  height: 55px;
+	 		  background-color: yellow;
+	 		  border-radius: 5%;}
+
+.yamaha 	{background-color: #f4f4e5}
+
+.tomo 		{background-color: #f4f4e5}
+
+
+/*lampu*/
+#lampu .lmp { width: 300px;
+	  		  height: 55px;
+	  		  background-color: yellow;
+	  		  border-radius: 5%;}
+
+.rem 		{background-color: #f4f4e5}
+
+.rihting 	{background-color: #f4f4e5}
+
+
+/*HANDEL*/
+#handel .hdl {width: 300px;
+	  		  height: 55px;
+	  		  background-color: yellow;
+			  border-radius: 5%;}
+
+.dua 		{background-color: #f4f4e5}
+
+.empat 		{background-color: #f4f4e5}
+
+/*lampuvariasi*/
+
+#vrlampu .vr { width: 350px;
+	  		  height: 55px;
+	  		  background-color: yellow;
+	  		  border-radius: 5%;}
+
+.eagleeye 		{background-color: #f4f4e5}
+
+.progi		 	{background-color: #f4f4e5}
+
+}
+
