@@ -21,12 +21,6 @@
 			 } 
 			 
 
-.jumbotron p {font-size: 30px;}
-
-.jumbotron h1 {font-size: 100px;}
-
-.jumbotron h2 {font-size: 50px;}
-
 .jumbotron p, .jumbotron h1, .jumbotron h2 { text-shadow: 1px 1px 10px rgba(0,0,0,0.5) } 
 
 /*membuat shadow*/
