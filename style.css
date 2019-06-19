@@ -50,7 +50,7 @@
 /*background*/
 
 #fixed {background-image: url(img/jumbotron2.jpg);
-		min-height: 300px;
+		min-height: 200px;
 		background-attachment: fixed;
 		background-size: cover;
 		background-position: 0 -200px;}
